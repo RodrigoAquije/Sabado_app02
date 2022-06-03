@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterfazActivity"
+    android:background="@color/fondo"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/fondo_degradado"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Curso de android estudio"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+            </TextView>
+
+
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/check">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:text="Bienvenido"
+                    android:textSize="45dp"
+                    android:fontFamily="@font/font_1"
+                    android:textStyle="bold"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="OPCION 01"
+            android:textSize="10sp"
+            android:background="@drawable/fondoboton"
+            android:drawableTop="@drawable/icono01"
+            android:paddingTop="10dp">
+        </Button>
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="OPCION 02"
+            android:textSize="10sp"
+            android:background="@drawable/fondoboton"
+            android:drawableTop="@drawable/icono02"
+            android:paddingTop="10dp"
+            android:layout_marginHorizontal="10dp">
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="OPCION 03"
+            android:textSize="10sp"
+            android:background="@drawable/fondoboton"
+            android:drawableTop="@drawable/icono03"
+            android:paddingTop="10dp">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="OPCION 01"
+            android:textSize="10sp"
+            android:background="@drawable/fondoboton"
+            android:drawableTop="@drawable/icono01"
+            android:paddingTop="10dp">
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="OPCION 01"
+            android:textSize="10sp"
+            android:background="@drawable/fondoboton"
+            android:drawableTop="@drawable/icono01"
+            android:paddingTop="10dp"
+            android:layout_marginHorizontal="10dp">
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="OPCION 01"
+            android:textSize="10sp"
+            android:background="@drawable/fondoboton"
+            android:drawableTop="@drawable/icono01"
+            android:paddingTop="10dp">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
