@@ -42,4 +42,5 @@ public class InterfazActivity extends AppCompatActivity {
 
         "Hola Mundo :D - Soy Bryan"
     }
+    "Hola mundo" - Soy betza :)
 }
